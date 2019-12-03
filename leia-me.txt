@@ -1,0 +1,6 @@
+Professor, fizemos o trabalho no navegador Google Chrome. Utilizamos duas máquinas com as mesmas definições de tela (1920 x 1080), e ambas
+utilizando as configurações padrões do navegador. Porém, estranhamente, enquanto que na primeira máquina (um notebook), as dimensões da
+página HTML saíram perfeitamente como esperado, na segunda máquina (um monitor de PC), foi necessário reduzir um pouco o tamanho da janela.
+Não sabemos o porquê disso, mas caso aconteça com o senhor, estamos enviado também um print que tiramos da tela do nosso trabalho para que
+o senhor possa redimensionar a janela de modo que fique igual. Esperamos pela sua compreensão. Obrigado, Pedro H. Z. Costa & David Jr.
+Rodrigues. 

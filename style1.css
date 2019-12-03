@@ -1,0 +1,177 @@
+
+p{
+	position: relative;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+button{
+	top: 21px;
+	right: 35px;
+	position: absolute;
+	width: 120px;
+	height: 32px;
+	border: 1px solid #F8F8F8;
+	background-color: #1A1A1A;
+	font-family: calibri;
+	color: #F8F8F8;
+	font-size: 19px; 
+}
+
+div{
+	width: 355px;
+	height: 499px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#close{
+	top: 10px;
+	right: 10px;
+	width: 26px;
+	height: 26px;
+	border: 1px solid #F8F8F8;
+	border-radius: 13px;
+	background-color: #1A1A1A;
+	font-family: calibri;
+	color: #F8F8F8;
+	font-size: 15px; 
+}
+
+#create{
+	position: static;
+	padding: 1px 6px 1px 6px; 
+	width: 77px;
+	height: 35px;
+	border: 1px solid #F8F8F8;
+	border-radius: 6px;
+	background-color: #1A1A1A;
+	font-family: calibri;
+	color: #F8F8F8;
+	font-size: 13px; 
+}
+
+#pop-up{
+    display: none;
+    background-color: #FFFFFF;
+    font-family: calibri; 
+    color: #1A1A1A; 
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 84px;
+	right: 588px;
+    position: absolute;
+    float:left;
+    margin:0 49px 25px 0;
+    text-align:center;
+    width:260px;
+    height: 325px;
+}
+
+#pop-up form {
+    -moz-border-radius:15px 15px 15px 15px;
+    -moz-box-shadow:0 0 10px #333333;
+    border:3px solid white;
+    padding:20px;
+}
+
+.pop-up .active-form {
+    border-color:#d09e6d;
+}
+
+div0{
+	width: 1534px;
+	height: 70px;
+	float: left;
+	border: 2px solid black;
+	margin: 0px 0px 0px 0px;
+	font-size: 21px;
+    font-family: calibri; 
+    color: #F8F8F8; 
+    background-color: #1A1A1A;
+}
+
+div1{
+	width: 1534px;
+	height: 23px;
+	float: left;
+	border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+div2{
+	width: 355px;
+	height: 545px;
+	float: left;
+	border: 1px solid black;
+	margin: 46px 0px 0px 21px;
+	border-radius: 10px;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    box-shadow: 3px 3px 3px #1A1A1A;
+}
+
+div3{
+	width: 355px;
+	height: 46px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 18px;
+    font-family: calibri; 
+    color: #F8F8F8; 
+    text-shadow: 1px 1px black;
+}
+
+task{
+	width: 318px;
+	height: 79px;
+	margin: 26px 0px 0px 15px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 7px;
+	font-size: 16px;
+    font-family: calibri; 
+    color: black; 
+    background-color: #FFFFFF;
+    overflow-y: auto;
+}
+
+#barrared{
+    height: 23px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+    width: 25%;
+	background-color: #990000;
+}
+
+#bargreen{
+    height: 23px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+    width: 25%;
+	background-color: #00B309;
+}
+
+#barorange{
+	height: 23px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+    width: 25%;
+	background-color: #CC6600;
+}
+
+#baryellow{
+	height: 23px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+    width: 25%;
+	background-color: #CC9E00;
+}

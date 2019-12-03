@@ -1,0 +1,106 @@
+<!DOCTYPE html>                           <!-- Pedro Henrique Zago Costa & David Jr. Rodrigues -->
+<html>                                    <!-- Desenvolvimento de Web com JavaScript - UNESP - 2019 -->
+<head>
+  <link rel="icon" href="unesp-logo-7.jpg"> <!-- Link com o ícone da página -->
+  <title> TPP02 </title>
+  <link href="style1.css" rel="stylesheet" type="text/css"> <!-- Link com o arquivo .CSS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- Link com a biblioteca jQuerry -->
+</head>
+<body>    <!-- Algumas estilizações logo abaixo -->
+  <style>
+    red{ 
+        width: 355px;
+	    height: 46px;
+	    margin: 0px 0px 0px 0px;
+	    float: left;                    
+	    background-color: black;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+        background-color: #990000;
+    }
+    orange{
+    	width: 355px;
+	    height: 46px;
+	    margin: 0px 0px 0px 0px;
+	    float: left;
+	    background-color: black;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+    	background-color: #CC6600;
+    }
+    yellow{
+    	width: 355px;
+	    height: 46px;
+	    margin: 0px 0px 0px 0px;
+	    float: left;
+	    background-color: black;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+    	background-color: #CC9E00;
+    }
+    green{
+    	width: 355px;
+	    height: 46px;
+	    margin: 0px 0px 0px 0px;
+	    float: left;
+	    background-color: black;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+    	background-color: #00B309;
+    }
+    end{
+    	font-family: calibri; 
+    	float: right;
+    	margin: 21px 21px 0px 0px;
+    }
+  </style>		
+  <div0>
+    <p> <center> Task Panel </center> <button onClick="showpopup()"> New Task </button> </p> <!-- Parte Superior do Site -->
+  </div0>
+  <div1>
+     <div id="barrared"></div> <!-- Barra de Progresso -->
+     <div id="bargreen"></div>	 
+	 <div id="barorange"></div>
+	 <div id="baryellow"></div>
+	
+  </div1>
+  <div id="pop-up"> <!-- Pop-up screen para se criar nova tarefa -->
+    <h3>New Task</h3>
+       <button onClick="closepopup()" id="close"> X </button>
+       <p> <label> Task <br> </label> <input type="text" id="task_text"> </p>
+       <p> <label> Task Description </label> <input type="text" id="task_description_text"> </p>
+       <button onClick="createDiv()" id="create"> create </button>
+   </div>
+     
+  <div2>
+  	<div3>
+      <red> <p style="position: static;"> &nbsp &nbsp To do </p> </red> <!-- Atividades à se fazer (estágio 1) -->
+  	</div3>
+  	<div id="getDiv">
+  	</div>
+  </div2>
+  <div2>
+	<div3>
+      <orange> <p style="position: static;"> &nbsp &nbsp In Progress </p> </orange> <!-- Atividades em progresso (estágio 2) -->
+  	</div3>
+  	<div id="divorange">
+  	</div>
+  </div2>
+  <div2>
+	<div3>
+      <yellow> <p style="position: static;"> &nbsp &nbsp Review </p> </yellow> <!-- Atividades sob revisão (estágio 3) -->
+  	</div3>
+  	<div id="divyellow">
+  	</div>
+  </div2>
+  <div2>
+  	<div3>
+      <green> <p style="position: static;"> &nbsp &nbsp Complete </p> </green> <!-- Atividades concluídas (estágio 4) -->
+  	</div3>
+  	<div id="divgreen">
+  	</div>
+  </div2>
+  <end> Pedro H. Z. Costa & David Jr. Rodrigues </end>
+</body>	
+<script src="script.js"> </script> <!-- Link com o arquivo .JS -->
+</html> <!-- Fim -->
